@@ -1,0 +1,107 @@
+/* === Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Rajdhani:wght@300;400;700&display=swap');
+/* === End Google Fonts === */
+
+
+/* === Global Styles === */
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.grid-container {
+    width: 65vw;
+    height: 85vh;
+    margin: 10em auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5em;
+    
+}
+/* === End Global Styles === */
+
+
+/* === Navbar === */
+#nav {
+    height: 15em;
+    width: 100vw;
+    background: #1e1e1e;
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    padding-right: 4em;
+}
+
+.nav-list li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 4em;
+    padding: .3em;
+}
+
+.nav-list li a{
+    color: white;
+}
+/* === End Navbar === */
+
+
+/* === Grid === */
+.grid-item {
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 20px -12px 12px gray;
+    align-items: center;
+    background: #1e1e1e;
+}
+
+.grid-item img {
+    height: 200px;
+    width: 300px;
+}
+
+.grid-item p {
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 2em;
+    color: white;
+}
+
+.grid-item h3 {
+    padding-left: 1.7em;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.grid-item .text a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* === End Grid === */
+
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#header h1 {
+    color: white;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
